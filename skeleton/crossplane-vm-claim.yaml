@@ -1,0 +1,19 @@
+
+apiVersion: compute.idp.io/v1alpha1
+
+kind: OpenStackInstance
+
+metadata:
+
+  name: ${{ values.instanceName }}
+
+  namespace: default
+
+spec:
+
+  parameters:
+
+    instanceName: "${{ values.instanceName }}"
+
+    flavorName: "${{ values.flavorName }}"
+
