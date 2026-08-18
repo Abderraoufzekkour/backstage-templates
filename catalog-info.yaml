@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: backstage-templates-root
+  description: Collection of all IDP software templates
+spec:
+  targets:
+    - ./template-openstack-vm.yaml
+    - ./python-microservice/template.yaml
