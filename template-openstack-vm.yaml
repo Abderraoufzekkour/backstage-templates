@@ -107,7 +107,7 @@ spec:
 
       input:
 
-        repoUrl: github.com?repo=Abderraoufzekkour/idp-openstack
+        repoUrl: github.com?owner=Abderraoufzekkour&repo=idp-openstack
 
         branchName: add-vm-${{ parameters.instanceName }}
 
